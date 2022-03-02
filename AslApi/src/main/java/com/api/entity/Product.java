@@ -19,8 +19,8 @@ public class Product {
 	@Basic(optional = false)
 	private String productId;
 	
-	@Basic(optional = false)
-	private String ProductName;
+	
+	private String productName;
 	
 	private String productBrand;
 	
@@ -35,4 +35,5 @@ public class Product {
 	@Transient
 	private BigDecimal totalAmount;
 
+	
 }
